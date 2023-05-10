@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- Real time socket IO app -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <script defer type="module" src="js/client.js"></script>
+    <!-- to connect client with server -->
+    
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        
+        <img class="logo" src="source/chat.png" alt="chat">
+        <h1>Welcome at Chat App</h1>
+        
+    </nav>
+    <div class="container"></div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp" placeholder="Enter a message ...">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
