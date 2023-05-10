@@ -4,7 +4,7 @@ this is a chat app where any one can join by just enter their name
 
 ## procedure to start the npm app first time
 1. create a folder nodeServer{if not}
-2.cd nodeServer
+2. cd nodeServer
 3. commands
   ```diff
     npm init
