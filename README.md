@@ -1,16 +1,29 @@
-# chatApp
-this is a chat app where any one can join by just enter their name
-
-# install node 18. version
-1. curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-2. source ~/.nvm/nvm.sh
-3. nvm install 18
-4. node --version
-
-## procedure to start the npm app from git
-
-BackEnd
+ChatApp
 -------
+This is a chat app where any one can join by just enter their name
+
+Technology Used
+---------------
+```
++ Backend
+  node.js
++ Frontend
+  HTML, CSS, JS
+```
+
+
+Install node 18. version
+------------------------
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+source ~/.nvm/nvm.sh
+nvm install 18
+node --version
+```
+
+
+Setup BackEnd
+-------------
 ```
 git clone 'ssh git link'
 cd nodeServer
@@ -23,8 +36,8 @@ app started
 
 ```
 
-FrontEnd
---------
+Setup FrontEnd
+-------------
 ```
 At index.html
 python3 -m http.server 5500
