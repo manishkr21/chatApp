@@ -4,10 +4,15 @@ import { createServer } from "http";
 import { Server } from "socket.io";
 
 const httpServer = createServer();
+// Specify CORS options
+const corsOptions = {
+  origin: "http://127.0.0.1:5500",
+  methods: ["GET", "POST"]
+};
+
+// Create Socket.IO server with CORS options
 const io = new Server(httpServer, {
-  cors: {
-    origin: "http://127.0.0.1:5500"
-  }
+  cors: corsOptions
 });
 
 httpServer.listen(8000);

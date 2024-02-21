@@ -2,6 +2,10 @@ ChatApp
 -------
 This is a chat app where any one can join by just enter their name
 
+![Demo image1](static/source/demo1.png)
+
+![Demo image1](static/source/demo2.png)
+
 Technology Used
 ---------------
 ```diff
