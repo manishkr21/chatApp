@@ -7,19 +7,26 @@ this is a chat app where any one can join by just enter their name
 3. nvm install 18
 4. node --version
 
-## procedure to start the npm app first time
-1. create a folder nodeServer{if not}
-create front end
-for backend : 
-  open terminal in nodeServer
-  0. sudo apt install npm
-  1. npm init
-  2. npm i socket.io
-  3. sudo npm install -g nodemon # or using yarn: yarn global add nodemon
-  4. Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-  5. nodemon .\index.js
-  6. app started
+## procedure to start the npm app from git
 
+BackEnd
+-------
+```
+git clone 'ssh git link'
+cd nodeServer
+npm init
+npm i socket.io
+npm install -g nodemon
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+nodemon .\index.js
+app started
 
-## procedure to start the npm app rest time
-```nodemon .\index.js```
+```
+
+FrontEnd
+--------
+```
+At index.html
+python3 -m http.server 5500
+```
+
