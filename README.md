@@ -4,10 +4,10 @@ This is a chat app where any one can join by just enter their name
 
 Technology Used
 ---------------
-```
-+Backend
+```diff
++ Backend
   node.js
-+Frontend
++ Frontend
   HTML, CSS, JS
 ```
 
